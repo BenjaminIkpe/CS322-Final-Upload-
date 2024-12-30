@@ -1,4 +1,9 @@
+
+
+### Intially from our GitLab repo but due to Login issues and Microsoft Authenticator being down around the time of submission (Maybe due to the Christmas period) we just commited and pushed the file in here.
+
 ### Set-Up on your system
+
 
 1. Clone the repository to your local machine:
 
@@ -8,7 +13,7 @@ git clone https://gitlab.com/malik_benji_marv/music-programmingfinal
 2. Change into the project directory:
 
 ```terminal
-cd Full-Stack-Spotify-Clone-Next-13.4-React-Stripe-Supabase-Tailwind
+cd cs322
 ```
 3. Install the project dependencies:
 
@@ -21,12 +26,13 @@ npm install
 1. Create a `.env.local` file in the project root and configure the following environment variables:
 
 ```js
- Create keys to access our supabase database.
+ Create keys to access a superbase database. www.supabase.com
 NEXT_PUBLIC_SUPABASE_URL=
 NEXT_PUBLIC_SUPABASE_ANON_KEY=
 SUPABASE_SERVICE_ROLE_KEY=
 
- Create keys to access our Stripe online product using Stripes CLI.
+ Create keys to access and create a online product using Stripes CLI.
+ Heres the link to create one  https://dashboard.stripe.com/
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
 STRIPE_SECRET_KEY=
 STRIPE_WEBHOOK_SECRET=
